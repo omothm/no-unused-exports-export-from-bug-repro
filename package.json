@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "lint": "eslint .",
+    "ts-unused-exports": "ts-unused-exports tsconfig.json ./**/*.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-plugin-canonical": "^4.9.0",
+    "ts-unused-exports": "^10.0.0"
+  }
+}

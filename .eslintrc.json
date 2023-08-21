@@ -1,0 +1,15 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["canonical"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "canonical/no-unused-exports": [
+          "warn",
+          { "tsConfigPath": "tsconfig.json" }
+        ]
+      }
+    }
+  ]
+}
